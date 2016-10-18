@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+        <record id="x_invoice_supplier_form" model="ir.ui.view">
+            <field name="name">x_account.invoice.supplier.form</field>
+            <field name="model">account.invoice</field>
+            <field name="inherit_id" ref="account.invoice_supplier_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//button[@string='Validate']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+                <xpath expr="//button[@string='Validate']" position="after">
+                    <button name="nif_validate" class="oe_highlight" states="draft,proforma2" string="Validate" type="object" groups="account.group_account_invoice"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="x_invoice_form" model="ir.ui.view">
+            <field name="name">x_account.invoice.form</field>
+            <field name="model">account.invoice</field>
+            <field name="inherit_id" ref="account.invoice_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//button[@string='Validate'][1]" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+                <xpath expr="//button[@string='Validate'][2]" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+                <xpath expr="//button[@string='Validate']" position="after">
+                    <button name="nif_validate" class="oe_highlight" states="draft,proforma2" string="Validate" type="object" groups="base.group_user"/>
+                </xpath>
+            </field>
+        </record>
+
+
+
+	</data>
+</openerp>

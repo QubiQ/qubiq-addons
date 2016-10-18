@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+		<record id="account_statement_validation_state_form" model="ir.ui.view">
+			<field name="name">account.bank.statement.validation.state.form</field>
+			<field name="model">account.bank.statement</field>
+			<field name="inherit_id" ref="account.view_bank_statement_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//button[@name='button_cancel']" position="replace">
+					<button name="button_cancel" states="confirm" string="Cancel Statement" type="object"/>
+				</xpath>
+				<xpath expr="//button[@name='button_confirm_bank']" position="replace">
+					<button name="button_confirm_bank" states="completo" string="Close" type="object" class="oe_highlight"/>
+				</xpath>
+				<xpath expr="//button[@name='button_confirm_bank']" position="before">
+					<button name="button_completo" states="draft" string="Confirm" type="object" class="oe_highlight"/>
+				</xpath>
+				<xpath expr="//field[@name='all_lines_reconciled']" position="after">
+				 	<button name="button_draft" states="completo" string="Modify" type="object"/>
+				</xpath>
+				<xpath expr="//field[@name='state']" position="replace">
+					<field name="state" widget="statusbar" statusbar_visible="draft,completo,confirm"/>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</openerp>

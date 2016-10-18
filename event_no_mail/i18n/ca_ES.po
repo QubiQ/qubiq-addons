@@ -1,0 +1,57 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* event_no_mail
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-17 13:56+0000\n"
+"PO-Revision-Date: 2016-10-17 15:59+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: ca_ES\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. module: event_no_mail
+#: code:addons/event_no_mail/models/calendar_event.py:184
+#, python-format
+msgid "A email has been send to specify that the date has been changed !"
+msgstr ""
+"S'ha enviat un correu electrònic per especificar que la data ha cambiat !"
+
+#. module: event_no_mail
+#: code:addons/event_no_mail/models/calendar_event.py:225
+#, python-format
+msgid "An invitation email has been sent to attendee %s"
+msgstr "S'ha enviat un correu electrònic a l'assistent %s"
+
+#. module: event_no_mail
+#: model:ir.model,name:event_no_mail.model_calendar_attendee
+msgid "Attendee information"
+msgstr "Informació assistents"
+
+#. module: event_no_mail
+#: field:calendar.attendee,display_name:0 field:calendar.event,display_name:0
+msgid "Display Name"
+msgstr "Display Name"
+
+#. module: event_no_mail
+#: model:ir.model,name:event_no_mail.model_calendar_event
+msgid "Event"
+msgstr "Esdeveniment"
+
+#. module: event_no_mail
+#: field:calendar.attendee,__last_update:0
+#: field:calendar.event,__last_update:0
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: event_no_mail
+#: field:calendar.attendee,envio_mail:0 field:calendar.event,envio_mail:0
+msgid "Send email"
+msgstr "Enviar correu electrònic"

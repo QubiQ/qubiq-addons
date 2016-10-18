@@ -1,0 +1,53 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bank_statement_validation_state
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-18 10:15+0000\n"
+"PO-Revision-Date: 2016-10-18 12:15+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: ca_ES\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. module: bank_statement_validation_state
+#: model:ir.model,name:bank_statement_validation_state.model_account_bank_statement
+msgid "Bank Statement"
+msgstr "Extracte bancari"
+
+#. module: bank_statement_validation_state
+#: view:account.bank.statement:bank_statement_validation_state.account_statement_validation_state_form
+msgid "Cancel Statement"
+msgstr "Cancel·lar extracte"
+
+#. module: bank_statement_validation_state
+#: view:account.bank.statement:bank_statement_validation_state.account_statement_validation_state_form
+msgid "Close"
+msgstr "Tanca"
+
+#. module: bank_statement_validation_state
+#: view:account.bank.statement:bank_statement_validation_state.account_statement_validation_state_form
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: bank_statement_validation_state
+#: field:account.bank.statement,display_name:0
+msgid "Display Name"
+msgstr "Display Name"
+
+#. module: bank_statement_validation_state
+#: field:account.bank.statement,__last_update:0
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: bank_statement_validation_state
+#: view:account.bank.statement:bank_statement_validation_state.account_statement_validation_state_form
+msgid "Modify"
+msgstr "Modificar"
