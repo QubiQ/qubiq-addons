@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+
+		<record id="view_partner_form" model="ir.ui.view">
+			<field name="name">view.partner.form</field>
+			<field name="model">res.partner</field>
+			<field name="inherit_id" ref="base.view_partner_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//notebook" position="inside">
+					<page string="Order point rules">
+                        <field name="cus_orderpoints_id">
+                            <tree string="Order Points" editable="bottom">
+                                        <field name="product_template_id" />
+                                        <field name="company_id" groups="base.group_multi_company" options="{'no_create': True}" />
+                                        <field name="end_date" />
+                                        <field name="product_min_qty" />
+                                        <field name="product_max_qty" />
+                             </tree>
+                        </field>
+                    </page>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</openerp>

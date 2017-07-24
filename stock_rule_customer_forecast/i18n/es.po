@@ -1,0 +1,114 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* stock_rule_customer_forecast
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-24 15:18+0000\n"
+"PO-Revision-Date: 2017-07-24 15:18+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: stock_rule_customer_forecast
+#: field:stock.rule.forecast,company_id:0
+msgid "Company"
+msgstr "Compañía"
+
+#. module: stock_rule_customer_forecast
+#: field:stock.rule.forecast,create_uid:0
+msgid "Created by"
+msgstr "Created by"
+
+#. module: stock_rule_customer_forecast
+#: field:stock.rule.forecast,create_date:0
+msgid "Created on"
+msgstr "Created on"
+
+#. module: stock_rule_customer_forecast
+#: field:product.template,cus_orderpoints_id:0
+#: field:res.partner,cus_orderpoints_id:0
+msgid "Cus orderpoints id"
+msgstr "Cus orderpoints id"
+
+#. module: stock_rule_customer_forecast
+#: field:stock.rule.forecast,display_name:0
+msgid "Display Name"
+msgstr "Display Name"
+
+#. module: stock_rule_customer_forecast
+#: field:stock.rule.forecast,end_date:0
+msgid "End Date"
+msgstr "Fecha Fín"
+
+#. module: stock_rule_customer_forecast
+#: field:stock.rule.forecast,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: stock_rule_customer_forecast
+#: model:ir.model,name:stock_rule_customer_forecast.model_stock_rule_forecast
+msgid "It stores the orderpoint info for each customer/product report, and the linked lines of detail with the values of the "
+msgstr "It stores the orderpoint info for each customer/product report, and the linked lines of detail with the values of the "
+
+#. module: stock_rule_customer_forecast
+#: field:stock.rule.forecast,__last_update:0
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: stock_rule_customer_forecast
+#: field:stock.rule.forecast,write_uid:0
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: stock_rule_customer_forecast
+#: field:stock.rule.forecast,write_date:0
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: stock_rule_customer_forecast
+#: field:stock.rule.forecast,product_max_qty:0
+#: field:stock.rule.forecast,product_min_qty:0
+msgid "Minimum Quantity"
+msgstr "Cantidad mínima"
+
+#. module: stock_rule_customer_forecast
+#: view:product.template:stock_rule_customer_forecast.nuc_product_form_view
+#: view:res.partner:stock_rule_customer_forecast.view_partner_form
+msgid "Order Points"
+msgstr "Reglas de reabastecimiento"
+
+#. module: stock_rule_customer_forecast
+#: view:product.template:stock_rule_customer_forecast.nuc_product_form_view
+#: view:res.partner:stock_rule_customer_forecast.view_partner_form
+msgid "Order point rules"
+msgstr "Reglas de reabastecimiento"
+
+#. module: stock_rule_customer_forecast
+#: model:ir.model,name:stock_rule_customer_forecast.model_res_partner
+#: field:stock.rule.forecast,partner_id:0
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: stock_rule_customer_forecast
+#: field:stock.rule.forecast,product_template_id:0
+msgid "Product"
+msgstr "Producto"
+
+#. module: stock_rule_customer_forecast
+#: model:ir.model,name:stock_rule_customer_forecast.model_product_template
+msgid "Product Template"
+msgstr "Producto"
+
+#. module: stock_rule_customer_forecast
+#: code:addons/stock_rule_customer_forecast/models/stock_rule_forecast.py:50
+#: sql_constraint:stock.rule.forecast:0
+#, python-format
+msgid "Record duplicated!"
+msgstr "Registro Duplicado!"
+
