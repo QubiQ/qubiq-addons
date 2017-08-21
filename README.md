@@ -22,5 +22,13 @@ addon | version | summary
 [stock_picking_delivery](stock_picking_delivery/) | 8.0.1.0.0 | Creates the delivery cost in stock picking
 [stock_picking_fixed_weight](stock_picking_fixed_weight/) | 8.0.1.0.0 | Allows you to manually modify weights in the stock picking
 [update_zip_data](update_zip_data/) | 8.0.1.0.0 | Update all the partners with ZIP data
+[limit_all_views_tree](limit_all_views_tree/) | 8.0.1.0.0 | Changes the value of default registry of views trees
+[annual_invoiced_forecast](annual_invoiced_forecast/) | 8.0.1.0.0 | Annual invoiced forecasts on sales widget
+[multiple_stock_picking_copies](multiple_stock_picking_copies/) | 8.0.1.0.0 | Print multiple stock picking copies
+[web_environment_ribbon_qubiq](web_environment_ribbon_qubiq/) | 8.0.1.0.0 | Mark a Test Environment and delete mail servers
+[disable_vat_check](disable_vat_check/) | 8.0.1.0.0 | Disable VAT check
+[virtual_machine_manager](virtual_machine_manager/) | 8.0.1.0.0 | Manage information related to the virtual machines
+[popup_notifications_mail](popup_notifications_mail/) | 8.0.1.0.0 | (Beta) Pop up when mail incoming by user
+
 
 [//]: # (end addons)

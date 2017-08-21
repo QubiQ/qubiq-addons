@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (c) 2017 QubiQ (http://www.qubiq.es)
+License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
+-->
+<openerp>
+    <data noupdate="1">
+        <record id="url_web" model="ir.config_parameter">
+            <field name="key">url_web_notifications</field>
+            <field name="value">http://localhost:8069/web#</field>
+        </record>
+
+        <record model="ir.cron" id="ir_cron_search_notifications_not_notified">
+            <field name="name">Creacion de notificaciones de correo</field>
+            <field name="interval_number">4</field>
+            <field name="interval_type">minutes</field>
+            <field name="numbercall">-1</field>
+            <field name="doall" eval="False"/>
+            <field name="model" eval="'mail.message'"/>
+            <field name="function" eval="'_cron_search_notifications_not_notified'"/>
+            <field name="args" eval="'()'" />
+        </record>
+
+    </data>
+</openerp>

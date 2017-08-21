@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_virtual_machine_information,access_virtual_machine_information,model_virtual_machine_info,project.group_project_user,1,1,1,1
+access_virtual_machine_partners,access_virtual_machine_partners,model_virtual_machine_partners,project.group_project_user,1,1,1,1

@@ -1,0 +1,257 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* virtual_machine_manager
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-20 07:26+0000\n"
+"PO-Revision-Date: 2016-10-20 09:32+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: ES\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. module: virtual_machine_manager
+#: selection:virtual.machine.info,version:0
+msgid "10.0"
+msgstr "10.0"
+
+#. module: virtual_machine_manager
+#: selection:virtual.machine.info,version:0
+msgid "7.0"
+msgstr "7.0"
+
+#. module: virtual_machine_manager
+#: selection:virtual.machine.info,version:0
+msgid "8.0"
+msgstr "8.0"
+
+#. module: virtual_machine_manager
+#: selection:virtual.machine.info,version:0
+msgid "9.0"
+msgstr "9.0"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:11
+#: field:virtual.machine.info,amazon_instance_type:0
+#, python-format
+msgid "Amazon Instance Type"
+msgstr "Tipo Instancia Amazon"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:8
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:27
+#: field:virtual.machine.info,name:0 field:virtual.machine.partners,vm_id:0
+#, python-format
+msgid "Amazon Machine Name"
+msgstr "Nombre Máquina Amazon"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:30
+#: selection:virtual.machine.partners,state:0
+#, python-format
+msgid "Available"
+msgstr "Disponible"
+
+#. module: virtual_machine_manager
+#: model:ir.ui.menu,name:virtual_machine_manager.virtual_machines_config_menu
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:10
+#: field:virtual.machine.info,cores:0
+#, python-format
+msgid "Cores"
+msgstr "Cores"
+
+#. module: virtual_machine_manager
+#: field:virtual.machine.info,create_uid:0
+#: field:virtual.machine.partners,create_uid:0
+msgid "Created by"
+msgstr "Created by"
+
+#. module: virtual_machine_manager
+#: field:virtual.machine.info,create_date:0
+#: field:virtual.machine.partners,create_date:0
+msgid "Created on"
+msgstr "Created on"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:36
+#: field:virtual.machine.partners,dns_name:0
+#, python-format
+msgid "DNS Name"
+msgstr "Nombre DNS"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:42
+#: sql_constraint:virtual.machine.partners:0
+#, python-format
+msgid "DNS Name already exists"
+msgstr "El nombre DNS introducido ya existe"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:33
+#: selection:virtual.machine.partners,state:0
+#, python-format
+msgid "Demo"
+msgstr "Demo"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:31
+#: selection:virtual.machine.partners,state:0
+#, python-format
+msgid "Development"
+msgstr "Desarrollo"
+
+#. module: virtual_machine_manager
+#: field:virtual.machine.info,display_name:0
+#: field:virtual.machine.partners,display_name:0
+msgid "Display Name"
+msgstr "Display Name"
+
+#. module: virtual_machine_manager
+#: view:virtual.machine.partners:virtual_machine_manager.virtual_machine_search
+msgid "Group By"
+msgstr "Group By"
+
+#. module: virtual_machine_manager
+#: field:virtual.machine.info,id:0 field:virtual.machine.partners,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:35
+#: field:virtual.machine.partners,ip_address:0
+#, python-format
+msgid "IP Address"
+msgstr "Dirección IP"
+
+#. module: virtual_machine_manager
+#: model:ir.ui.menu,name:virtual_machine_manager.info_menu
+msgid "Information"
+msgstr "Información"
+
+#. module: virtual_machine_manager
+#: model:ir.ui.menu,name:virtual_machine_manager.instances_menu
+#: model:ir.ui.menu,name:virtual_machine_manager.virtual_machines_instances_menu
+msgid "Instances"
+msgstr "Instancias"
+
+#. module: virtual_machine_manager
+#: field:virtual.machine.info,__last_update:0
+#: field:virtual.machine.partners,__last_update:0
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: virtual_machine_manager
+#: field:virtual.machine.info,write_uid:0
+#: field:virtual.machine.partners,write_uid:0
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: virtual_machine_manager
+#: field:virtual.machine.info,write_date:0
+#: field:virtual.machine.partners,write_date:0
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:21
+#: sql_constraint:virtual.machine.info:0
+#, python-format
+msgid "Name already exists"
+msgstr "El nombre introducido ya existe"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:12
+#: field:virtual.machine.info,version:0
+#, python-format
+msgid "Odoo Version"
+msgstr "Versión Odoo"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:28
+#: field:virtual.machine.partners,partner_id:0
+#, python-format
+msgid "Partner"
+msgstr "Cliente"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:37
+#: field:virtual.machine.partners,port:0
+#, python-format
+msgid "Port"
+msgstr "Puerto"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:32
+#: selection:virtual.machine.partners,state:0
+#, python-format
+msgid "Production"
+msgstr "Producción"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:9
+#: field:virtual.machine.info,ram:0
+#, python-format
+msgid "RAM"
+msgstr "RAM"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:29
+#: field:virtual.machine.partners,start_date:0
+#, python-format
+msgid "Start Date"
+msgstr "Fecha Inicio"
+
+#. module: virtual_machine_manager
+#: code:addons/virtual_machine_manager/models/virtual_machine_manager.py:30
+#: field:virtual.machine.partners,state:0
+#, python-format
+msgid "State"
+msgstr "Estado"
+
+#. module: virtual_machine_manager
+#: view:virtual.machine.partners:virtual_machine_manager.virtual_machine_search
+msgid "VM Name"
+msgstr "Nombre MV"
+
+#. module: virtual_machine_manager
+#: view:virtual.machine.partners:virtual_machine_manager.virtual_machine_search
+msgid "VM State"
+msgstr "Estado MV"
+
+#. module: virtual_machine_manager
+#: model:ir.ui.menu,name:virtual_machine_manager.main_virtual_machines_menu
+msgid "VMS"
+msgstr "MVS"
+
+#. module: virtual_machine_manager
+#: view:virtual.machine.info:virtual_machine_manager.virtual_machine_info_form
+#: view:virtual.machine.info:virtual_machine_manager.virtual_machine_info_tree
+msgid "Virtual Machine Information"
+msgstr "Información Máquina Virtual"
+
+#. module: virtual_machine_manager
+#: view:virtual.machine.partners:virtual_machine_manager.virtual_machine_instances_form
+#: view:virtual.machine.partners:virtual_machine_manager.virtual_machine_instances_tree
+msgid "Virtual Machine Instances"
+msgstr "Instancias Máquinas Virtuales"
+
+#. module: virtual_machine_manager
+#: model:ir.actions.act_window,name:virtual_machine_manager.virtual_machine_info_action
+msgid "Virtual Machines Information"
+msgstr "Información de las Máquinas Virtuales"
+
+#. module: virtual_machine_manager
+#: model:ir.actions.act_window,name:virtual_machine_manager.virtual_machine_instances_action
+msgid "Virtual Machines Instances"
+msgstr "Instancias de las Máquinas Virtuales"

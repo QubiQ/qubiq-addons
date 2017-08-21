@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (c) 2017 QubiQ (http://www.qubiq.es)
+License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
+-->
+<template>
+    <t t-name='popup_title'>
+        <p style="display:none;" id="p_id"><t t-esc="id"/></p>
+        <t t-esc="title"/>
+    </t>
+    <t t-name='popup_footer'>
+    	<br/><br/>
+        <button class='link2showed oe_highlight oe_form oe_button'><span>OK</span></button>
+    </t>
+</template>

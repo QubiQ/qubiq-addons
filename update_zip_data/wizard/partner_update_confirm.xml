@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (c) 2017 QubiQ (http://www.qubiq.es)
+License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
+-->
 <openerp>
     <data>
-
         <record id="view_partner_update_confirm" model="ir.ui.view">
             <field name="name">Update Confirm</field>
             <field name="model">partner.update.confirm</field>
             <field name="arch" type="xml">
               <form string="Update Data Confirmation">
                   <label string="Update partners with ZIP data"/>
-                  
+
                   <footer>
                       <button name="confirm" string="Process" type="object" class="oe_highlight"/>
                       or
@@ -25,15 +28,11 @@
             <field name="view_type">form</field>
             <field name="view_mode">form</field>
             <field name="view_id" ref="view_partner_update_confirm"/>
-            
+
             <field name="target">new</field>
         </record>
 
-       
-        
          <menuitem id="at_invoice_generation_confirm_menu" name="Update Partner ZIP Data"
                   parent="base.menu_base_config" action="action_partner_update_confirm" />
-        
-
     </data>
 </openerp>
