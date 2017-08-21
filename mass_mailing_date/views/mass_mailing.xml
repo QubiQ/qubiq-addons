@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+
+    <!-- Vista Form -->  
+    <record id="day_view_mail_mass_mailing_form" model="ir.ui.view">
+      <field name="name">day_mail.mass_mailing.form</field>
+      <field name="model">mail.mass_mailing</field>
+      <field name="inherit_id" ref="mass_mailing.view_mail_mass_mailing_form" />
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='sent_date']" position="after">
+          <field name="bool_for_send"/>
+          <field name="date_for_send_mail" attrs="{'invisible': [('bool_for_send', '=', False)]}"/>
+        </xpath>
+      </field>
+    </record>
+  </data>
+</openerp>

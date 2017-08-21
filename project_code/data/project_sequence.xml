@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data noupdate="0">
+        <record id="project_sequence_type" model="ir.sequence.type">
+            <field name="name">Project code type</field>
+            <field name="code">project.project</field>
+        </record>
+        <record id="project_sequence" model="ir.sequence">
+            <field name="name">Project code</field>
+            <field name="code">project.project</field>
+            <field eval="4" name="padding" />
+            
+            <field name="prefix">PRY/%(year)s/</field>
+        </record>
+    </data>
+</openerp>

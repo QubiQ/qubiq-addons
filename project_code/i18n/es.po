@@ -1,0 +1,728 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_code
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-18 07:36+0000\n"
+"PO-Revision-Date: 2016-10-18 09:39+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. module: project_code
+#: help:project.project,toinvoice_total:0
+msgid " Sum of everything that could be invoiced for this contract."
+msgstr " Sum of everything that could be invoiced for this contract."
+
+#. module: project_code
+#: help:project.project,alias_defaults:0
+msgid ""
+"A Python dictionary that will be evaluated to provide default values when "
+"creating new records for this alias."
+msgstr ""
+"A Python dictionary that will be evaluated to provide default values when "
+"creating new records for this alias."
+
+#. module: project_code
+#: field:project.project,child_complete_ids:0
+msgid "Account Hierarchy"
+msgstr "Account Hierarchy"
+
+#. module: project_code
+#: field:project.project,manager_id:0
+msgid "Account Manager"
+msgstr "Account Manager"
+
+#. module: project_code
+#: field:project.project,name:0
+msgid "Account/Contract Name"
+msgstr "Account/Contract Name"
+
+#. module: project_code
+#: field:project.project,alias_contact:0
+msgid "Alias Contact Security"
+msgstr "Alias Contact Security"
+
+#. module: project_code
+#: field:project.project,alias_name:0
+msgid "Alias Name"
+msgstr "Alias Name"
+
+#. module: project_code
+#: field:project.project,alias_domain:0
+msgid "Alias domain"
+msgstr "Alias domain"
+
+#. module: project_code
+#: field:project.project,alias_model_id:0
+msgid "Aliased Model"
+msgstr "Aliased Model"
+
+#. module: project_code
+#: field:project.project,line_ids:0
+msgid "Analytic Entries"
+msgstr "Analytic Entries"
+
+#. module: project_code
+#: field:project.project,balance:0
+msgid "Balance"
+msgstr "Balance"
+
+#. module: project_code
+#: help:project.project,ca_theorical:0
+msgid ""
+"Based on the costs you had on the project, what would have been the revenue "
+"if all these costs have been invoiced at the normal sale price provided by "
+"the pricelist."
+msgstr ""
+"Based on the costs you had on the project, what would have been the revenue "
+"if all these costs have been invoiced at the normal sale price provided by "
+"the pricelist."
+
+#. module: project_code
+#: field:project.project,crossovered_budget_line:0
+msgid "Budget Lines"
+msgstr "Budget Lines"
+
+#. module: project_code
+#: field:project.project,charge_expenses:0
+msgid "Charge Expenses"
+msgstr "Charge Expenses"
+
+#. module: project_code
+#: help:project.project,use_timesheets:0
+msgid "Check this field if this project manages timesheets"
+msgstr "Check this field if this project manages timesheets"
+
+#. module: project_code
+#: field:project.project,child_ids:0
+msgid "Child Accounts"
+msgstr "Child Accounts"
+
+#. module: project_code
+#: field:project.project,company_id:0
+msgid "Company"
+msgstr "Company"
+
+#. module: project_code
+#: help:project.project,remaining_hours_to_invoice:0
+msgid ""
+"Computed using the formula: Expected on timesheets - Total invoiced on "
+"timesheets"
+msgstr ""
+"Computed using the formula: Expected on timesheets - Total invoiced on "
+"timesheets"
+
+#. module: project_code
+#: help:project.project,real_margin:0
+msgid "Computed using the formula: Invoiced Amount - Total Costs."
+msgstr "Computed using the formula: Invoiced Amount - Total Costs."
+
+#. module: project_code
+#: help:project.project,revenue_per_hour:0
+msgid "Computed using the formula: Invoiced Amount / Total Time"
+msgstr "Computed using the formula: Invoiced Amount / Total Time"
+
+#. module: project_code
+#: help:project.project,remaining_ca:0
+msgid "Computed using the formula: Max Invoice Price - Invoiced Amount."
+msgstr "Computed using the formula: Max Invoice Price - Invoiced Amount."
+
+#. module: project_code
+#: help:project.project,remaining_hours:0
+msgid "Computed using the formula: Maximum Time - Total Worked Time"
+msgstr "Computed using the formula: Maximum Time - Total Worked Time"
+
+#. module: project_code
+#: help:project.project,theorical_margin:0
+msgid "Computed using the formula: Theoretical Revenue - Total Costs"
+msgstr "Computed using the formula: Theoretical Revenue - Total Costs"
+
+#. module: project_code
+#: help:project.project,real_margin_rate:0
+msgid "Computes using the formula: (Real Margin / Total Costs) * 100."
+msgstr "Computes using the formula: (Real Margin / Total Costs) * 100."
+
+#. module: project_code
+#: field:project.project,credit:0
+msgid "Credit"
+msgstr "Credit"
+
+#. module: project_code
+#: field:project.project,currency_id:0
+msgid "Currency"
+msgstr "Currency"
+
+#. module: project_code
+#: field:project.project,partner_id:0
+msgid "Customer"
+msgstr "Customer"
+
+#. module: project_code
+#: field:project.project,last_worked_date:0
+msgid "Date of Last Cost/Work"
+msgstr "Date of Last Cost/Work"
+
+#. module: project_code
+#: field:project.project,last_worked_invoiced_date:0
+msgid "Date of Last Invoiced Cost"
+msgstr "Date of Last Invoiced Cost"
+
+#. module: project_code
+#: field:project.project,recurring_next_date:0
+msgid "Date of Next Invoice"
+msgstr "Date of Next Invoice"
+
+#. module: project_code
+#: help:project.project,last_worked_date:0
+msgid "Date of the latest work done on this account."
+msgstr "Date of the latest work done on this account."
+
+#. module: project_code
+#: field:project.project,debit:0
+msgid "Debit"
+msgstr "Debit"
+
+#. module: project_code
+#: field:project.project,alias_defaults:0
+msgid "Default Values"
+msgstr "Default Values"
+
+#. module: project_code
+#: field:project.project,description:0
+msgid "Description"
+msgstr "Description"
+
+#. module: project_code
+#: field:project.project,display_name:0
+msgid "Display Name"
+msgstr "Display Name"
+
+#. module: project_code
+#: field:project.project,est_expenses:0
+msgid "Estimation of Expenses to Invoice"
+msgstr "Estimation of Expenses to Invoice"
+
+#. module: project_code
+#: field:project.project,hours_qtt_est:0
+msgid "Estimation of Hours to Invoice"
+msgstr "Estimation of Hours to Invoice"
+
+#. module: project_code
+#: help:project.project,remaining_total:0
+msgid ""
+"Expectation of remaining income for this contract. Computed as the sum of "
+"remaining subtotals which, in turn, are computed as the maximum between "
+"'(Estimation - Invoiced)' and 'To Invoice' amounts"
+msgstr ""
+"Expectation of remaining income for this contract. Computed as the sum of "
+"remaining subtotals which, in turn, are computed as the maximum between "
+"'(Estimation - Invoiced)' and 'To Invoice' amounts"
+
+#. module: project_code
+#: field:project.project,date:0
+msgid "Expiration Date"
+msgstr "Expiration Date"
+
+#. module: project_code
+#: field:project.project,fix_price_invoices:0
+msgid "Fixed Price"
+msgstr "Fixed Price"
+
+#. module: project_code
+#: field:project.project,complete_name:0
+msgid "Full Name"
+msgstr "Full Name"
+
+#. module: project_code
+#: field:project.project,recurring_invoices:0
+msgid "Generate recurring invoices automatically"
+msgstr "Generate recurring invoices automatically"
+
+#. module: project_code
+#: help:project.project,alias_parent_thread_id:0
+msgid ""
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+msgstr ""
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+
+#. module: project_code
+#: help:project.project,use_tasks:0
+msgid ""
+"If checked, this contract will be available in the project menu and you will "
+"be able to manage tasks or track issues"
+msgstr ""
+"If checked, this contract will be available in the project menu and you will "
+"be able to manage tasks or track issues"
+
+#. module: project_code
+#: help:project.project,ca_to_invoice:0
+msgid ""
+"If invoice from analytic account, the remaining amount you can invoice to "
+"the customer based on the total costs."
+msgstr ""
+"If invoice from analytic account, the remaining amount you can invoice to "
+"the customer based on the total costs."
+
+#. module: project_code
+#: help:project.project,last_invoice_date:0
+msgid "If invoice from the costs, this is the date of the latest invoiced."
+msgstr "If invoice from the costs, this is the date of the latest invoiced."
+
+#. module: project_code
+#: help:project.project,last_worked_invoiced_date:0
+msgid ""
+"If invoice from the costs, this is the date of the latest work or cost that "
+"have been invoiced."
+msgstr ""
+"If invoice from the costs, this is the date of the latest work or cost that "
+"have been invoiced."
+
+#. module: project_code
+#: help:project.project,type:0
+msgid ""
+"If you select the View Type, it means you won't allow to create journal "
+"entries using that account.\n"
+"The type 'Analytic account' stands for usual accounts that you only want to "
+"use in accounting.\n"
+"If you select Contract or Project, it offers you the possibility to manage "
+"the validity and the invoicing options for this account.\n"
+"The special type 'Template of Contract' allows you to define a template with "
+"default data that you can reuse easily."
+msgstr ""
+"If you select the View Type, it means you won't allow to create journal "
+"entries using that account.\n"
+"The type 'Analytic account' stands for usual accounts that you only want to "
+"use in accounting.\n"
+"If you select Contract or Project, it offers you the possibility to manage "
+"the validity and the invoicing options for this account.\n"
+"The special type 'Template of Contract' allows you to define a template with "
+"default data that you can reuse easily."
+
+#. module: project_code
+#: field:project.project,recurring_invoice_line_ids:0
+msgid "Invoice Lines"
+msgstr "Invoice Lines"
+
+#. module: project_code
+#: help:project.project,recurring_rule_type:0
+msgid "Invoice automatically repeat at specified interval"
+msgstr "Invoice automatically repeat at specified interval"
+
+#. module: project_code
+#: field:project.project,amount_invoiced:0 field:project.project,ca_invoiced:0
+msgid "Invoiced Amount"
+msgstr "Invoiced Amount"
+
+#. module: project_code
+#: field:project.project,hours_qtt_invoiced:0
+msgid "Invoiced Time"
+msgstr "Invoiced Time"
+
+#. module: project_code
+#: help:project.project,amount_max:0
+msgid "Keep empty if this contract is not limited to a total fixed price."
+msgstr "Keep empty if this contract is not limited to a total fixed price."
+
+#. module: project_code
+#: field:project.project,last_invoice_date:0
+msgid "Last Invoice Date"
+msgstr "Last Invoice Date"
+
+#. module: project_code
+#: field:project.project,__last_update:0
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: project_code
+#: field:project.project,amount_max:0
+msgid "Max. Invoice Price"
+msgstr "Max. Invoice Price"
+
+#. module: project_code
+#: field:project.project,month_ids:0
+msgid "Month"
+msgstr "Month"
+
+#. module: project_code
+#: help:project.project,hours_qtt_non_invoiced:0
+msgid ""
+"Number of time (hours/days) (from journal of type 'general') that can be "
+"invoiced if you invoice based on analytic account."
+msgstr ""
+"Number of time (hours/days) (from journal of type 'general') that can be "
+"invoiced if you invoice based on analytic account."
+
+#. module: project_code
+#: help:project.project,hours_qtt_invoiced:0
+msgid ""
+"Number of time (hours/days) that can be invoiced plus those that already "
+"have been invoiced."
+msgstr ""
+"Number of time (hours/days) that can be invoiced plus those that already "
+"have been invoiced."
+
+#. module: project_code
+#: help:project.project,hours_quantity:0
+msgid ""
+"Number of time you spent on the analytic account (from timesheet). It "
+"computes quantities on all journal of type 'general'."
+msgstr ""
+"Number of time you spent on the analytic account (from timesheet). It "
+"computes quantities on all journal of type 'general'."
+
+#. module: project_code
+#: field:project.project,invoice_on_timesheets:0
+msgid "On Timesheets"
+msgstr "On Timesheets"
+
+#. module: project_code
+#: help:project.project,alias_force_thread_id:0
+msgid ""
+"Optional ID of a thread (record) to which all incoming messages will be "
+"attached, even if they did not reply to it. If set, this will disable the "
+"creation of new records completely."
+msgstr ""
+"Optional ID of a thread (record) to which all incoming messages will be "
+"attached, even if they did not reply to it. If set, this will disable the "
+"creation of new records completely."
+
+#. module: project_code
+#: field:project.project,is_overdue_quantity:0
+msgid "Overdue Quantity"
+msgstr "Overdue Quantity"
+
+#. module: project_code
+#: field:project.project,alias_user_id:0
+msgid "Owner"
+msgstr "Owner"
+
+#. module: project_code
+#: field:project.project,parent_id:0
+msgid "Parent Analytic Account"
+msgstr "Parent Analytic Account"
+
+#. module: project_code
+#: field:project.project,alias_parent_model_id:0
+msgid "Parent Model"
+msgstr "Parent Model"
+
+#. module: project_code
+#: field:project.project,alias_parent_thread_id:0
+msgid "Parent Record Thread ID"
+msgstr "Parent Record Thread ID"
+
+#. module: project_code
+#: help:project.project,alias_parent_model_id:0
+msgid ""
+"Parent model holding the alias. The model holding the alias reference\n"
+"is not necessarily the model given by alias_model_id\n"
+"(example: project (parent_model) and task (model))"
+msgstr ""
+"Parent model holding the alias. The model holding the alias reference\n"
+"is not necessarily the model given by alias_model_id\n"
+"(example: project (parent_model) and task (model))"
+
+#. module: project_code
+#: help:project.project,alias_contact:0
+msgid ""
+"Policy to post a message on the document using the mailgateway.\n"
+"- everyone: everyone can post\n"
+"- partners: only authenticated partners\n"
+"- followers: only followers of the related document\n"
+msgstr ""
+"Policy to post a message on the document using the mailgateway.\n"
+"- everyone: everyone can post\n"
+"- partners: only authenticated partners\n"
+"- followers: only followers of the related document\n"
+
+#. module: project_code
+#: field:project.project,quantity_max:0
+msgid "Prepaid Service Units"
+msgstr "Prepaid Service Units"
+
+#. module: project_code
+#: field:project.project,pricelist_id:0
+msgid "Pricelist"
+msgstr "Pricelist"
+
+#. module: project_code
+#: model:ir.model,name:project_code.model_project_project
+msgid "Project"
+msgstr "Proyecto"
+
+#. module: project_code
+#: field:project.project,project_code:0
+msgid "Project Code"
+msgstr "Código de Proyecto"
+
+#. module: project_code
+#: field:project.project,user_id:0
+msgid "Project Manager"
+msgstr "Project Manager"
+
+#. module: project_code
+#: field:project.project,quantity:0
+msgid "Quantity"
+msgstr "Quantity"
+
+#. module: project_code
+#: field:project.project,real_margin:0
+msgid "Real Margin"
+msgstr "Real Margin"
+
+#. module: project_code
+#: field:project.project,real_margin_rate:0
+msgid "Real Margin Rate (%)"
+msgstr "Real Margin Rate (%)"
+
+#. module: project_code
+#: field:project.project,alias_force_thread_id:0
+msgid "Record Thread ID"
+msgstr "Record Thread ID"
+
+#. module: project_code
+#: field:project.project,recurring_rule_type:0
+msgid "Recurrency"
+msgstr "Recurrency"
+
+#. module: project_code
+#: field:project.project,code:0
+msgid "Reference"
+msgstr "Reference"
+
+#. module: project_code
+#: field:project.project,remaining_ca:0
+msgid "Remaining Revenue"
+msgstr "Remaining Revenue"
+
+#. module: project_code
+#: field:project.project,fix_price_to_invoice:0
+#: field:project.project,remaining_hours:0
+#: field:project.project,remaining_hours_to_invoice:0
+#: field:project.project,timesheet_ca_invoiced:0
+msgid "Remaining Time"
+msgstr "Remaining Time"
+
+#. module: project_code
+#: field:project.project,recurring_interval:0
+msgid "Repeat Every"
+msgstr "Repeat Every"
+
+#. module: project_code
+#: help:project.project,recurring_interval:0
+msgid "Repeat every (Days/Week/Month/Year)"
+msgstr "Repeat every (Days/Week/Month/Year)"
+
+#. module: project_code
+#: field:project.project,revenue_per_hour:0
+msgid "Revenue per Time (real)"
+msgstr "Revenue per Time (real)"
+
+#. module: project_code
+#: help:project.project,quantity_max:0
+msgid ""
+"Sets the higher limit of time to work on the contract, based on the "
+"timesheet. (for instance, number of hours in a limited support contract.)"
+msgstr ""
+"Sets the higher limit of time to work on the contract, based on the "
+"timesheet. (for instance, number of hours in a limited support contract.)"
+
+#. module: project_code
+#: field:project.project,date_start:0
+msgid "Start Date"
+msgstr "Start Date"
+
+#. module: project_code
+#: help:project.project,fix_price_to_invoice:0
+msgid "Sum of quotations for this contract."
+msgstr "Sum of quotations for this contract."
+
+#. module: project_code
+#: help:project.project,timesheet_ca_invoiced:0
+msgid "Sum of timesheet lines invoiced for this contract."
+msgstr "Sum of timesheet lines invoiced for this contract."
+
+#. module: project_code
+#: field:project.project,use_tasks:0
+msgid "Tasks"
+msgstr "Tasks"
+
+#. module: project_code
+#: field:project.project,template_id:0
+msgid "Template of Contract"
+msgstr "Template of Contract"
+
+#. module: project_code
+#: code:addons/project_code/models/project_project.py:16
+#: sql_constraint:project.project:0
+#, python-format
+msgid "The code must be unique!"
+msgstr "The code must be unique!"
+
+#. module: project_code
+#: help:project.project,alias_model_id:0
+msgid ""
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+msgstr ""
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+
+#. module: project_code
+#: help:project.project,alias_name:0
+msgid ""
+"The name of the email alias, e.g. 'jobs' if you want to catch emails for "
+"<jobs@example.odoo.com>"
+msgstr ""
+"The name of the email alias, e.g. 'jobs' if you want to catch emails for "
+"<jobs@example.odoo.com>"
+
+#. module: project_code
+#: help:project.project,alias_user_id:0
+msgid ""
+"The owner of records created upon receiving emails on this alias. If this "
+"field is not set the system will attempt to find the right owner based on "
+"the sender (From) address, or will use the Administrator account if no "
+"system user is found for that address."
+msgstr ""
+"The owner of records created upon receiving emails on this alias. If this "
+"field is not set the system will attempt to find the right owner based on "
+"the sender (From) address, or will use the Administrator account if no "
+"system user is found for that address."
+
+#. module: project_code
+#: help:project.project,pricelist_id:0
+msgid ""
+"The product to invoice is defined on the employee form, the price will be "
+"deducted by this pricelist on the product."
+msgstr ""
+"The product to invoice is defined on the employee form, the price will be "
+"deducted by this pricelist on the product."
+
+#. module: project_code
+#: field:project.project,theorical_margin:0
+msgid "Theoretical Margin"
+msgstr "Theoretical Margin"
+
+#. module: project_code
+#: field:project.project,ca_theorical:0
+msgid "Theoretical Revenue"
+msgstr "Theoretical Revenue"
+
+#. module: project_code
+#: field:project.project,to_invoice:0
+msgid "Timesheet Invoicing Ratio"
+msgstr "Timesheet Invoicing Ratio"
+
+#. module: project_code
+#: field:project.project,use_timesheets:0
+msgid "Timesheets"
+msgstr "Timesheets"
+
+#. module: project_code
+#: field:project.project,total_cost:0
+msgid "Total Costs"
+msgstr "Total Costs"
+
+#. module: project_code
+#: field:project.project,est_total:0
+msgid "Total Estimation"
+msgstr "Total Estimation"
+
+#. module: project_code
+#: field:project.project,invoiced_total:0
+msgid "Total Invoiced"
+msgstr "Total Invoiced"
+
+#. module: project_code
+#: field:project.project,remaining_total:0
+msgid "Total Remaining"
+msgstr "Total Remaining"
+
+#. module: project_code
+#: field:project.project,hours_quantity:0
+msgid "Total Worked Time"
+msgstr "Total Worked Time"
+
+#. module: project_code
+#: help:project.project,ca_invoiced:0
+msgid "Total customer invoiced amount for this account."
+msgstr "Total customer invoiced amount for this account."
+
+#. module: project_code
+#: help:project.project,amount_invoiced:0
+msgid "Total invoiced"
+msgstr "Total invoiced"
+
+#. module: project_code
+#: help:project.project,total_cost:0
+msgid ""
+"Total of costs for this account. It includes real costs (from invoices) and "
+"indirect costs, like time spent on timesheets."
+msgstr ""
+"Total of costs for this account. It includes real costs (from invoices) and "
+"indirect costs, like time spent on timesheets."
+
+#. module: project_code
+#: field:project.project,toinvoice_total:0
+msgid "Total to Invoice"
+msgstr "Total to Invoice"
+
+#. module: project_code
+#: field:project.project,type:0
+msgid "Type of Account"
+msgstr "Type of Account"
+
+#. module: project_code
+#: field:project.project,ca_to_invoice:0
+msgid "Uninvoiced Amount"
+msgstr "Uninvoiced Amount"
+
+#. module: project_code
+#: field:project.project,hours_qtt_non_invoiced:0
+msgid "Uninvoiced Time"
+msgstr "Uninvoiced Time"
+
+#. module: project_code
+#: field:project.project,user_ids:0
+msgid "User"
+msgstr "User"
+
+#. module: project_code
+#: help:project.project,to_invoice:0
+msgid ""
+"You usually invoice 100% of the timesheets. But if you mix fixed price and "
+"timesheet invoicing, you may use another ratio. For instance, if you do a "
+"20% advance invoice (fixed price, based on a sales order), you should "
+"invoice the rest on timesheet with a 80% ratio."
+msgstr ""
+"You usually invoice 100% of the timesheets. But if you mix fixed price and "
+"timesheet invoicing, you may use another ratio. For instance, if you do a "
+"20% advance invoice (fixed price, based on a sales order), you should "
+"invoice the rest on timesheet with a 80% ratio."
+
+#. module: project_code
+#: view:project.project:project_code.project_issue_code_search_view
+msgid "['|', ('name', 'ilike', self), ('project_code', 'ilike', self)]"
+msgstr "['|', ('name', 'ilike', self), ('project_code', 'ilike', self)]"
+
+#. module: project_code
+#: field:project.project,company_uom_id:0
+#: field:project.project,expense_invoiced:0
+#: field:project.project,expense_to_invoice:0
+#: field:project.project,remaining_expense:0
+msgid "unknown"
+msgstr "unknown"

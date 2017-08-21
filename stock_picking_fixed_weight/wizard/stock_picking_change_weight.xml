@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_change_stock_picking_weight" model="ir.ui.view">
+            <field name="name">Change stock picking weight</field>
+            <field name="model">stock.picking.change.weight</field>
+            <field name="arch" type="xml">
+                <form string="Update Weight">
+                    <group>
+                        <field name="weight"/>
+                        
+                    </group>
+                    <footer>
+                        <button name="confirm" string="_Apply" type="object" class="oe_highlight"/>
+                        or
+                        <button string="_Cancel" class="oe_link" special="cancel" />
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_view_change_stock_picking_weight" model="ir.actions.act_window">
+            <field name="name">Update Weight</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">stock.picking.change.weight</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_change_stock_picking_weight"/>
+            <field name="target">new</field>
+        </record>
+
+    </data>
+</openerp>
