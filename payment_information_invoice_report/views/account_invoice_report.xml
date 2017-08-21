@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (c) 2017 QubiQ (http://www.qubiq.es)
+License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
+-->
 <openerp>
   <data>
-
     <template id="ad_report_invoice_payment_mode" inherit_id="account_payment_partner.report_invoice_payment_mode" >
       <xpath expr="//p[@t-if='o.partner_bank_id']" position="replace">
         <div>

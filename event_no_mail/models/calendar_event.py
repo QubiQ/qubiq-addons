@@ -1,20 +1,7 @@
-# -*- encoding: utf-8 -*-
-##############################################################################
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as published
-#    by the Free Software Foundation, either version 3 of the License, or
-#    (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see http://www.gnu.org/licenses/.
-#
-##############################################################################
+# -*- coding: utf-8 -*-
+# Copyright (c) 2017 QubiQ (http://www.qubiq.es)
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
+
 import pytz
 import re
 import time
@@ -37,6 +24,7 @@ from openerp.http import request
 from operator import itemgetter
 import unicodedata
 
+
 class calendar_attendee(osv.Model):
     """
     Calendar Attendee Information
@@ -51,8 +39,10 @@ class calendar_attendee(osv.Model):
                 }
 
 
-    def _send_mail_to_attendees(self, cr, uid, ids, email_from=tools.config.get('email_from', False),
-                                template_xmlid='calendar_template_meeting_invitation', force=False, context=None):
+    def _send_mail_to_attendees(self, cr, uid, ids,
+                                email_from=tools.config.get('email_from', False),
+                                template_xmlid='calendar_template_meeting_invitation',
+                                force=False, context=None):
         """
         Send mail for event invitation to event attendees.
         @param email_from: email address for user sending the mail
@@ -110,7 +100,6 @@ class calendar_attendee(osv.Model):
         return res
 
 
-
 class calendar_event(osv.Model):
 
     _inherit = "calendar.event"
@@ -121,7 +110,6 @@ class calendar_event(osv.Model):
     _defaults = {
                 'envio_mail': True,
                 }
-
 
     def write(self, cr, uid, ids, values, context=None):
         context = context or {}
@@ -185,7 +173,6 @@ class calendar_event(osv.Model):
 
         return True
 
-
     def create_attendees(self, cr, uid, ids, context=None):
         if context is None:
             context = {}
@@ -207,7 +194,7 @@ class calendar_event(osv.Model):
                     'event_id': event.id,
                     'access_token': access_token,
                     'email': partner.email,
-                    'envio_mail':event.envio_mail,
+                    'envio_mail': event.envio_mail,
                     'state': 'needsAction',
                 }
 
@@ -227,7 +214,7 @@ class calendar_event(osv.Model):
             if new_attendees:
                 self.write(cr, uid, [event.id], {'attendee_ids': [(4, att) for att in new_attendees]}, context=context)
 
-            if new_att_partner_ids and event.envio_mail: # Cambio en esta linea.
+            if new_att_partner_ids and event.envio_mail:  # Cambio en esta linea.
                 self.message_subscribe(cr, uid, [event.id], new_att_partner_ids, context=context)
 
             # We remove old attendees who are not in partner_ids now.
@@ -249,20 +236,3 @@ class calendar_event(osv.Model):
                 'removed_attendee_ids': attendee_ids_to_remove
             }
         return res
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

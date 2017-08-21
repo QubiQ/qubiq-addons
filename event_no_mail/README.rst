@@ -3,28 +3,20 @@
    :alt: License: AGPL-3
 
 =========================
-Popup notifications mail (Beta)
+Event no mail
 =========================
 
-This module performs a popup in the download and assignment of emails of each user.
-
-* Each popup is performed every 3 minutes.
-* Each popup is independent for each browser window.
-* There is a cron that creates the notifications called: Creacion de notificaciones de correo
-* In order for the popup to be made, click on "Ok"
+This module adds a functionality that allows the user to choose if he wants to send an email to the attendees of an event.
 
 Configuration
 =============
 
-Install the module and verify that the configuration parameter
-(Configuration-> parameters-> system parameters) has
-The address: web port followed by/web # eg:
-Http://localhost:8069/web#
+Install the module.
 
 Known issues / Roadmap
 ======================
 
-* In some cases it does not allocate well the popups
+* ...
 
 Bug Tracker
 ===========
@@ -42,3 +34,9 @@ Contributors
 
 * Valentin Vinagre <valentin.vinagre@qubiq.es>
 
+Maintainer
+----------
+
+.. image:: https://odoo-community.org/logo.png
+   :alt: Odoo Community Association
+   :target: https://odoo-community.org

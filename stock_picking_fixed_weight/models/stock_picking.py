@@ -1,47 +1,19 @@
 # -*- coding: utf-8 -*-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Copyright (C) 2004-2010 Tiny SPRL (<http://tiny.be>).
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
-"""
-
-from openerp import models, fields, api
-class stock_picking(models.Model):
-	_inherit = 'stock.picking'
-
-	weight_fixed = fields.Float(string='Weight')
-"""
+# Copyright (c) 2017 QubiQ (http://www.qubiq.es)
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
 
 
+#  Se ha escrito en la Api 7 por un bug de Odoo
 
-# Se ha escrito en la Api 7 por un bug de Odoo
 
-
-from openerp.osv import fields,osv
+from openerp.osv import fields, osv
 from openerp.tools.translate import _
+
 
 class stock_picking(osv.osv):
     _inherit = 'stock.picking'
     _columns = {
-
-        
         'weight_fixed': fields.float(string=_('MODIFIED WEIGTH')),
-        
     }
 
     # Sobre escritura completa de la función para tener en cuenta el precio fijo
@@ -70,12 +42,13 @@ class stock_picking(osv.osv):
                                 picking.carrier_id.id))
         quantity = sum([line.product_uom_qty for line in picking.move_lines])
         # MODIFICACIÓN PARA PESO VOLUMETRICO - HEREDA DEL MODULO delivery
-        weight=picking.weight 
-        if (picking.weight_fixed) :
-        	weight=picking.weight_fixed
+        weight = picking.weight
+        if (picking.weight_fixed):
+            weight = picking.weight_fixed
         price = grid_obj.get_price_from_picking(cr, uid, grid_id,
-                invoice.amount_untaxed, weight, picking.volume,
-                quantity, context=context)
+                                                invoice.amount_untaxed, weight,
+                                                picking.volume, quantity,
+                                                context=context)
         # FIN MODIFICACION
         if invoice.company_id.currency_id.id != invoice.currency_id.id:
             price = currency_obj.compute(cr, uid, invoice.company_id.currency_id.id, invoice.currency_id.id,
@@ -105,17 +78,4 @@ class stock_picking(osv.osv):
             'invoice_line_tax_id': [(6, 0, taxes_ids)],
         }
 
-
-
-   
-
 stock_picking()
-
-
-
-
-
-
-
-
-	

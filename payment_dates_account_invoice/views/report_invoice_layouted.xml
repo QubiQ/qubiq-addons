@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (c) 2017 QubiQ (http://www.qubiq.es)
+License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
+-->
 <openerp>
-<data>
-<template id="qu_report_invoice_document_inherit_1" inherit_id="account.report_invoice_document">
-    <xpath expr="//p[@t-if='o.payment_term.note']" position="after">
-        
-        <strong>Due Dates : </strong>
-        <t t-foreach="o._get_due_dates()" t-as="i">
-       <!-- <p> <t t-esc="str(i[0])" /> : <t t-esc="str(i[1]).replace('.',',')" /> <span t-field="o.currency_id.symbol"/> </p> -->
-      
-
-       <span> <t t-esc="str(i[0])" />  </span>
-        </t>
-
-    </xpath>    
-    
-</template>
-</data>
+	<data>
+		<template id="qu_report_invoice_document_inherit_1" inherit_id="account.report_invoice_document">
+		    <xpath expr="//p[@t-if='o.payment_term.note']" position="after">
+		        <strong>Due Dates : </strong>
+		        <t t-foreach="o._get_due_dates()" t-as="i">
+		       <!-- <p> <t t-esc="str(i[0])" /> : <t t-esc="str(i[1]).replace('.',',')" /> <span t-field="o.currency_id.symbol"/> </p> -->
+		       <span> <t t-esc="str(i[0])" />  </span>
+		        </t>
+		    </xpath>
+		</template>
+	</data>
 </openerp>

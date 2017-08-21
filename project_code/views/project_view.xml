@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (c) 2017 QubiQ (http://www.qubiq.es)
+License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
+--
 <openerp>
     <data>
         <record model="ir.ui.view" id="project_project_code_form_view">
@@ -9,7 +13,7 @@
                 <field name="user_id" position="before">
                     <field name="project_code"/>
                     <newline/>
-                    
+
                 </field>
             </field>
         </record>

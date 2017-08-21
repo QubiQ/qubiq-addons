@@ -3,28 +3,20 @@
    :alt: License: AGPL-3
 
 =========================
-Popup notifications mail (Beta)
+Mail smtp force from
 =========================
 
-This module performs a popup in the download and assignment of emails of each user.
-
-* Each popup is performed every 3 minutes.
-* Each popup is independent for each browser window.
-* There is a cron that creates the notifications called: Creacion de notificaciones de correo
-* In order for the popup to be made, click on "Ok"
+Get smtp user pass from mail servers. Useful for mailservers without relay.
 
 Configuration
 =============
 
-Install the module and verify that the configuration parameter
-(Configuration-> parameters-> system parameters) has
-The address: web port followed by/web # eg:
-Http://localhost:8069/web#
+Install the module.
 
 Known issues / Roadmap
 ======================
 
-* In some cases it does not allocate well the popups
+* ...
 
 Bug Tracker
 ===========
@@ -40,5 +32,8 @@ Credits
 Contributors
 ------------
 
+* Marçal Isern <marsal.isern@qubiq.es>
 * Valentin Vinagre <valentin.vinagre@qubiq.es>
 
+Maintainer
+----------

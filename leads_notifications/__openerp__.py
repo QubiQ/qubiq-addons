@@ -1,18 +1,21 @@
 # -*- coding: utf-8 -*-
-# more info: https://fossies.org/dox/odoo-8.0.0/ir__needaction_8py_source.html
+# Copyright (c) 2017 QubiQ (http://www.qubiq.es)
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
 
 {
     'name': 'No Salesperson Leads Notifications',
-    'version':'1.0',
-    'category' : 'Custom',
+    'version': '8.0.1.0.0',
+    'category': 'Custom',
     'description': """
-        This module adds a notification when a lead has no salesperson assigned. 
+        This module adds a notification when a lead has no salesperson assigned
     """,
-    'author':'QubiQ',
+    'author': 'QubiQ',
     'website': 'https://www.qubiq.es',
-    'depends': ['base','account'],
+    'depends': [
+        'base',
+        'account'
+        ],
     'data': [],
     'auto_install': False,
     'installable': True,
 }
-

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (c) 2017 QubiQ (http://www.qubiq.es)
+License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
+-->
 <openerp>
   <data>
-
-    <!-- Vista Form -->  
+    <!-- Vista Form -->
     <record id="day_view_mail_mass_mailing_form" model="ir.ui.view">
       <field name="name">day_mail.mass_mailing.form</field>
       <field name="model">mail.mass_mailing</field>
