@@ -1,1 +1,26 @@
-# qubiq-addons
+Addons Qubiq Odoo v.8
+=============================
+
+[//]: # (addons)
+
+Available addons
+----------------
+addon | version | summary
+--- | --- | ---
+[account_banking_payment_export_filtred_invoice](account_banking_payment_export_filtred_invoice/) | 8.0.1.0.0 | Filter invoice payment method
+[bank_statement_validation_state](bank_statement_validation_state/) | 8.0.1.0.0 | New state validation in bank statement
+[event_no_mail](event_no_mail/) | 8.0.1.0.0 | Allow or deny emails from attendees of an event
+[leads_notifications](leads_notifications/) | 8.0.1.0.0 | Add notification when a lead don't have salesperson
+[mail_smtp_force_from](mail_smtp_force_from/) | 8.0.1.0.0 | Useful for mailservers without relay
+[mass_mailing_date](mass_mailing_date/) | 8.0.1.0.0 | Send mails in one especific date
+[partner_invoice_TIN_validation](partner_invoice_TIN_validation/) | 8.0.1.0.0 | Warning in the invoice if partner don't have TIN
+[payment_dates_account_invoice](payment_dates_account_invoice/) | 8.0.1.0.0 | Due dates in the invoices.
+[payment_information_invoice_report](payment_information_invoice_report/) | 8.0.1.0.0 | Add payment information in the invoice report
+[project_code](project_code/) | 8.0.1.0.0 | Assign one unique name (sequence) to projects
+[reminder_base_reminder_phonecall_event_no_mail_qubiq](reminder_base_reminder_phonecall_event_no_mail_qubiq/) | 8.0.1.0.0 |
+[sale_order_to_project_template](sale_order_to_project_template/) | 8.0.1.0.0 | Creates a project from sale order
+[stock_picking_delivery](stock_picking_delivery/) | 8.0.1.0.0 | Creates the delivery cost in stock picking
+[stock_picking_fixed_weight](stock_picking_fixed_weight/) | 8.0.1.0.0 | Allows you to manually modify weights in the stock picking
+[update_zip_data](update_zip_data/) | 8.0.1.0.0 | Update all the partners with ZIP data
+
+[//]: # (end addons)
