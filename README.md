@@ -16,6 +16,7 @@ addon | version | summary
 [partner_invoice_TIN_validation](partner_invoice_TIN_validation/) | 8.0.1.0.0 | Warning in the invoice if partner don't have TIN
 [payment_dates_account_invoice](payment_dates_account_invoice/) | 8.0.1.0.0 | Due dates in the invoices.
 [payment_information_invoice_report](payment_information_invoice_report/) | 8.0.1.0.0 | Add payment information in the invoice report
+[product_order_point_autocreate](product_order_point_autocreate/) | 8.0.1.0.0 | Create new orderpoints for new products
 [project_code](project_code/) | 8.0.1.0.0 | Assign one unique name (sequence) to projects
 [reminder_base_reminder_phonecall_event_no_mail_qubiq](reminder_base_reminder_phonecall_event_no_mail_qubiq/) | 8.0.1.0.0 |
 [sale_order_to_project_template](sale_order_to_project_template/) | 8.0.1.0.0 | Creates a project from sale order
