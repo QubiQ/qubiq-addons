@@ -11,7 +11,7 @@ Product Order Point Auto Creation
 =================================
 
 Create a new order point with 0 0 values everytime a new product is created
-Models and view customitzations for Nucleonic
+
     """,
     'author': 'QubiQ',
     'website': 'https://www.qubiq.es',
