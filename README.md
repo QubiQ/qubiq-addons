@@ -7,6 +7,7 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
+
 [account_banking_payment_export_filtred_invoice](account_banking_payment_export_filtred_invoice/) | 8.0.1.0.0 | Filter invoice payment method
 [bank_statement_validation_state](bank_statement_validation_state/) | 8.0.1.0.0 | New state validation in bank statement
 [event_no_mail](event_no_mail/) | 8.0.1.0.0 | Allow or deny emails from attendees of an event
@@ -18,6 +19,7 @@ addon | version | summary
 [payment_information_invoice_report](payment_information_invoice_report/) | 8.0.1.0.0 | Add payment information in the invoice report
 [product_order_point_autocreate](product_order_point_autocreate/) | 8.0.1.0.0 | Create new orderpoints for new products
 [project_code](project_code/) | 8.0.1.0.0 | Assign one unique name (sequence) to projects
+[product_copy_translate_name](product_copy_translate_name/) | 8.0.1.0.0 | Copy translate name to origin name for products
 [reminder_base_reminder_phonecall_event_no_mail_qubiq](reminder_base_reminder_phonecall_event_no_mail_qubiq/) | 8.0.1.0.0 |
 [sale_order_to_project_template](sale_order_to_project_template/) | 8.0.1.0.0 | Creates a project from sale order
 [stock_picking_delivery](stock_picking_delivery/) | 8.0.1.0.0 | Creates the delivery cost in stock picking
