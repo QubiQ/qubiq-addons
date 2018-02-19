@@ -14,5 +14,6 @@ addon | version | summary
 [qu_create_mandate](qu_create_mandate/) | 10.0.1.0.0 | Wizard para creación masiva de mandatos
 [qu_iban_converter](qu_iban_converter/) | 10.0.1.0.0 | Wizard para conversión de CCC to IBAN masiva
 [qu_account_invoice_picking_info](qu_account_invoice_picking_info/) | 10.0.1.0.0 | Muestra información del albarán en la factura
+[mrp_production_cost](mrp_production_cost/) | 10.0.1.0.0 | Calcula el coste de las ordenes de producción
 
 [//]: # (end addons)
