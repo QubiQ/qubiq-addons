@@ -32,6 +32,7 @@ addon | version | summary
 [disable_vat_check](disable_vat_check/) | 8.0.1.0.0 | Disable VAT check
 [virtual_machine_manager](virtual_machine_manager/) | 8.0.1.0.0 | Manage information related to the virtual machines
 [popup_notifications_mail](popup_notifications_mail/) | 8.0.1.0.0 | (Beta) Pop up when mail incoming by user
+[qu_account_invoice_product_filter](qu_account_invoice_product_filter/) | 8.0.1.0.0 | Allow search by product in account invoice view
 [qu_duplicate_grups](qu_duplicate_groups/) | 8.0.1.0.0 | Allow to duplicate groups
 [mail_server_relay_disallowed_365](mail_server_relay_disallowed_365) | 8.0.1.0.0 |  Allow to use Office365 mail server
 
