@@ -22,9 +22,9 @@ Usage
 
 To use this module, you need to:
 
-#. Go to menu Project > Search > Tasks and create a new task, and you get a
+#. Go to menu Project  and create a new task, and you get a
 new code saving it.
-#. If you duplicate a task, you will get a new code for the new task.
+
 
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
