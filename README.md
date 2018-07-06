@@ -16,6 +16,7 @@ addon | version | summary
 [qu_duplicate_groups](qu_duplicate_groups/) | 10.0.1.0.0 | Duplicate groups addon
 [qu_iban_converter](qu_iban_converter/) | 10.0.1.0.0 | Wizard para conversión de CCC to IBAN masiva
 [qu_project_code](qu_project_code/) | 10.0.1.0.0 | Añade una secuencia a los proyectos
+[file_download](file_download/) | 10.0.1.0.0 | Wizard base para descargar archivos custom
 
 
 [//]: # (end addons)
