@@ -4,9 +4,10 @@
         <!-- Scheduled action to update spanish VAT -->
         <record id="update_spanish_vat_scheduled_action" model="ir.cron">
             <field name="name">Update Spanish VAT</field>
-            <field name="active">False</field>
-            <field name="model">res.partner</field>
-            <field name="function">update_spanish_vat</field>
+            <field name="interval_number">0</field>
+            <field name="model_id">77</field>
+            <field name="state">code</field>
+            <field name="code">model.update_spanish_vat()</field>
         </record>
     </data>
 </odoo>
