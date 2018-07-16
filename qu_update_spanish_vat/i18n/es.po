@@ -1,0 +1,31 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* qu_update_spanish_vat
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c-20180303\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-13 06:53+0000\n"
+"PO-Revision-Date: 2018-07-13 08:55+0200\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#. module: qu_update_spanish_vat
+#: code:addons/qu_update_spanish_vat/models/res_partner.py:15
+#: model:ir.model.fields,field_description:qu_update_spanish_vat.field_res_partner_vat_revision
+#: model:ir.ui.view,arch_db:qu_update_spanish_vat.needs_revision
+#, python-format
+msgid "Needs VAT revision"
+msgstr "Necesita revisar DNI"
+
+#. module: qu_update_spanish_vat
+#: model:ir.model,name:qu_update_spanish_vat.model_res_partner
+msgid "Partner"
+msgstr "Empresa"

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Scheduled action to update spanish VAT -->
+        <record id="update_spanish_vat_scheduled_action" model="ir.cron">
+            <field name="name">Update Spanish VAT</field>
+            <field name="active">False</field>
+            <field name="model">res.partner</field>
+            <field name="function">update_spanish_vat</field>
+            <field name="args">(None,)</field>
+        </record>
+    </data>
+</odoo>
