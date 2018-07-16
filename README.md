@@ -35,6 +35,7 @@ addon | version | summary
 [qu_account_invoice_product_filter](qu_account_invoice_product_filter/) | 8.0.1.0.0 | Allow search by product in account invoice view
 [qu_duplicate_grups](qu_duplicate_groups/) | 8.0.1.0.0 | Allow to duplicate groups
 [mail_server_relay_disallowed_365](mail_server_relay_disallowed_365) | 8.0.1.0.0 |  Allow to use Office365 mail server
+[qu_update_spanish_vat](qu_update_spanish_vat/)| 8.0.1.0.0 | Process to add ES ahead spanish customers's VAT
 
 
 [//]: # (end addons)
