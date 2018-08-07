@@ -12,5 +12,6 @@ addon | version | summary
 [qu_create_mandate](qu_create_mandate/) | 9.0.1.0.0 | Wizard create bank mandates
 [qu_duplicate_groups](qu_duplicate_groups/) | 9.0.1.0.0 | This module allows to duplicate groups.
 [qu_update_spanish_vat](qu_update_spanish_vat/)| 9.0.1.0.0 | Process to add ES ahead spanish customers's VAT
+[file_download](file_download/)| 9.0.1.0.0 | Wizard base para descargar archivos custom
 
 [//]: # (end addons)
