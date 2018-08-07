@@ -9,8 +9,17 @@ from odoo import models, fields, api
 class FileDownloadModel(models.AbstractModel):
     _name = 'file.download.model'
 
-    data = fields.Binary('File', readonly=True)
-    name = fields.Char('File name', readonly=True)
+    data = fields.Binary(
+        string='File',
+        readonly=True
+    )
+    name = fields.Char(
+        string='File name',
+        readonly=True
+    )
+    comments = fields.Text(
+        string='Comments'
+    )
 
     def get_filename(self):
         return ''

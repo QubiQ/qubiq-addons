@@ -28,6 +28,14 @@ After this, create a wizard with a button that calls the function set_file.
 This function will open a new wizard with the downloadable file.
 
 
+Gestión de errores
+==================
+
+Los errores/fallos se gestionan en `las incidencias de GitHub <https://github.com/QubiQ/qubiq-addons/issues>`_.
+En caso de problemas, compruebe por favor si su incidencia ha sido ya
+reportada. Si fue el primero en descubrirla, ayúdenos a solucionarla indicando
+una detallada descripción `aquí <https://github.com/QubiQ/qubiq-addons/issues/new>`_.
+
 
 Credits
 =======
@@ -35,8 +43,8 @@ Credits
 Contributors
 ------------
 
-* Valentin Vinagre <valentin.vinagre@qubiq.es>
 * Oscar Navarro <oscar.navarro@qubiq.es>
+* Valentin Vinagre <valentin.vinagre@qubiq.es>
 
 Maintainer
 ----------

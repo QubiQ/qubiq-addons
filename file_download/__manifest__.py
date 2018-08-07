@@ -3,8 +3,8 @@
 # Copyright (c) 2018 QubiQ (http://www.qubiq.es)
 
 {
-    'name': 'file download',
-    'version': '10.0.1.0',
+    'name': 'File download',
+    'version': '10.0.1.0.0',
     'sequence': 14,
     'summary': 'Download file',
     'description': """
@@ -14,8 +14,8 @@
     'website': 'https://www.qubiq.es',
     'category': 'report',
     'data': [
-            'wizard/download_file_view.xml',
-             ],
+        'wizard/download_file_view.xml',
+    ],
     'installable': True,
     'application': False,
 }
