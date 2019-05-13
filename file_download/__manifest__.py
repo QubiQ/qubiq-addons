@@ -4,7 +4,7 @@
 
 {
     'name': 'File download',
-    'version': '11.0.1.0.0',
+    'version': '12.0.1.0.0',
     'sequence': 14,
     'summary': 'Download file',
     'description': """
