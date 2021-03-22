@@ -38,7 +38,6 @@ class FileDownloadModel(models.AbstractModel):
                'sticky': True}
             }
 
-    @api.multi
     def set_file(self):
         name = self.get_filename()
         out = base64.encodestring(self.get_content())
@@ -50,7 +49,6 @@ class FileDownloadModel(models.AbstractModel):
             'res_id': self.id,
             'views': [(view.id, 'form')],
             'view_id': view.id,
-            'view_mode': 'form',
             'view_mode': 'form',
             'target': 'new',
         }
