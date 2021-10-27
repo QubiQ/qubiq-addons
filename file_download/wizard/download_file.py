@@ -50,5 +50,6 @@ class FileDownloadModel(models.AbstractModel):
             'views': [(view.id, 'form')],
             'view_id': view.id,
             'view_mode': 'form',
+            'view_mode': 'form',
             'target': 'new',
         }

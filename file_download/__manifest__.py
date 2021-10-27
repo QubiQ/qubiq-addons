@@ -4,7 +4,7 @@
 
 {
     'name': 'File download',
-    'version': '13.0.1.0.0',
+    'version': '14.0.1.0.0',
     'sequence': 14,
     'summary': 'Download file',
     'description': """
@@ -14,6 +14,7 @@
     'website': 'https://www.qubiq.es',
     'category': 'report',
     'data': [
+        'security/ir.model.access.csv',
         'wizard/download_file_view.xml',
     ],
     'installable': True,
